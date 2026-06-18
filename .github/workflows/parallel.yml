@@ -1,0 +1,15 @@
+name: Parallel Job WorkFlow
+on: [push]
+
+jobs:
+    job1:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "ジョブ１を実行中…"
+            - run: sleep 15
+    
+    job2:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "ジョブ１を実行中..."
+            - run: sleep 15
