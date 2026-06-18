@@ -1,5 +1,5 @@
 name: Parallel Job WorkFlow
-on: [push]
+on: [workflow_dispatch]
 
 jobs:
     job1:
